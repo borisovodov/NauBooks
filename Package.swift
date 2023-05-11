@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "naubooks",
+    name: "NauBooks",
     platforms: [
        .macOS(.v12)
     ],
