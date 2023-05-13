@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Debug App",
+            "program": "${workspaceFolder:NauBooks}/.build/debug/App",
+            "args": [],
+            "cwd": "${workspaceFolder:NauBooks}",
+            "preLaunchTask": "swift: Build Debug App"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Release App",
+            "program": "${workspaceFolder:NauBooks}/.build/release/App",
+            "args": [],
+            "cwd": "${workspaceFolder:NauBooks}",
+            "preLaunchTask": "swift: Build Release App"
+        }
+    ]
+}
